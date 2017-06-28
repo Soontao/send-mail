@@ -5,7 +5,7 @@ simple tool to help send mail from cli
 ## install
 
 ```bash
-npm i -g send-mail
+npm i -g https://github.com/Soontao/send-mail
 ```
 
 ## usage
@@ -25,7 +25,7 @@ send-email-to -s QQ -u no.such.mail.box@qq.com -p nosuchmailpass -t theo.sun@out
 With config
 
 ```bash
-send-mail --save -s QQ -u monitor@fornever.org -p gbyolpjzwqtfbibe -t theo.sun@qq.com
+send-mail --save -s QQ -u no.such.mail.box@qq.com -p nosuchmailpass -t theo.sun@qq.com
 ```
 
 And you can use the saved config later
