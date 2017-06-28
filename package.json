@@ -1,0 +1,20 @@
+{
+  "name": "send-mail",
+  "version": "1.0.0",
+  "description": "send mail from shell",
+  "main": "index.js",
+  "bin": "index.js",
+  "engines": {
+    "node": ">=6.0.0"
+  },
+  "keywords": [
+    "mail",
+    "cli"
+  ],
+  "author": "Theo Sun",
+  "license": "MIT",
+  "dependencies": {
+    "nodemailer": "^4.0.1",
+    "optimist": "^0.6.1"
+  }
+}
