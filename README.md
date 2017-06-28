@@ -17,7 +17,7 @@ send-mail -s <your service> -u <your email user> -p <your email password or toke
 live sample
 
 ```bash
-send-email-to -s QQ -u no.such.mail.box@qq.com -p nosuchmailpass -t theo.sun@outlook.com -h 'HI Theo' -c 'this is content, nice to see you theo'
+send-mail -s QQ -u no.such.mail.box@qq.com -p nosuchmailpass -t theo.sun@outlook.com -h 'HI Theo' -c 'this is content, nice to see you theo'
 ```
 
 ## Adavance
