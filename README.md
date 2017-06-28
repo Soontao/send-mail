@@ -5,7 +5,7 @@ simple tool to help send mail from cli
 ## install
 
 ```bash
-npm i -g send-mail
+npm i -g https://github.com/Soontao/send-mail
 ```
 
 ## usage
