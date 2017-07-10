@@ -10,6 +10,27 @@ npm i -g https://github.com/Soontao/send-mail
 
 ## usage
 
+help from cli
+
+```bash
+$ send-mail --help
+
+simple tool to help send mail from cli
+
+Options:
+  -s, --service  service name, for example, QQ
+  -u, --user     auth user
+  -p, --pass     auth user password, or toekn
+  -t, --target   target email address
+  -h, --header   email title
+  -c, --content  email content
+  --save         save current config to user main directory
+  --clean        clean config
+
+```
+
+cli command template
+
 ```bash
 send-mail -s <your service> -u <your email user> -p <your email password or token> -t <target email> -h <mail header> -c <mail content>
 ```
@@ -25,13 +46,14 @@ send-mail -s QQ -u no.such.mail.box@qq.com -p nosuchmailpass -t theo.sun@outlook
 With config
 
 ```bash
-send-mail --save -s QQ -u no.such.mail.box@qq.com -p nosuchmailpass -t theo.sun@qq.com
+send-mail --save -s QQ -u no.such.mail.box@qq.com -p nosuchmailpass
 ```
 
-And you can use the saved config later
+And you could use the saved config later
 
 ```bash
-send-mail -h 'Hi theo' -c 'nice to see you here'
+send-mail -t 'theo.sun@qq.com' -h 'Hi theo' -c 'nice to see you here'
+# same as send-mail -s QQ -u no.such.mail.box@qq.com -p nosuchmailpass -t 'theo.sun@qq.com' -h 'Hi theo' -c 'nice to see you here'
 ```
 
 Delete config
