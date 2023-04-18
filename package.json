@@ -14,7 +14,7 @@
   "author": "Theo Sun",
   "license": "MIT",
   "dependencies": {
-    "nodemailer": "^4.0.1",
+    "nodemailer": "^6.6.1",
     "optimist": "^0.6.1"
   }
 }
